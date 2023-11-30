@@ -1,0 +1,207 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: roboto;
+    color:orange;
+    }
+.nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color:white;
+      padding: 60px 0px 0px 30px;
+      color: orange;
+      align-item: center;
+      border-bottom: 5px orange solid;
+      height: 120px;
+        z-index: 1;
+     }
+ .header {
+      margin-top: 60px;
+      padding: 0px;
+      background-image: url('images/orange-background.jpg'); 
+      background-size: cover;
+      background-position: left;                            
+      background-repeat: no-repeat; 
+      width: 100%;
+      height: 50vh;
+    }
+#logo {
+    width: 100px;
+    height: 120px; 
+    margin-top: -65px ;
+    position: relative;
+    top:0px;
+    }
+ .nav-item{
+     display: flex;
+     align-item:center;
+     justify-content:space-between;
+    } 
+ #logo-name{
+      font-size: 33px;
+      font-weight: 900px;
+      margin-right:100px ;
+      margin-bottom:-500px ;
+  }
+ li{
+      list-style:none;
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+     }
+ li a{
+     text-decoration:none;
+     color: orange;
+     font-size: 20px;
+     margin-right: 15px;
+     font-weight:500;
+ }
+li a:hover{
+    color: green;
+    text-decoration:underline;
+    }
+.nav ul{
+     align-items: right;
+     justify-content: center;
+     gap:2cm;
+ }
+ .header h1{
+     text-align:center;
+     font-size: 85px;
+     font-weight: 900px;
+     justify-content: center;
+     display:flex;
+    padding-top:35% ;
+  }
+  .header h2{
+     text-align:center;
+     font-size: 40px;
+     font-weight: 600px;
+     justify-content: center;
+     display:flex;
+     color: green;
+  }
+  .about h2{
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 60px;
+    text-align:center;
+}
+.about p{
+    font-size: 30px;
+    margin: 0 25px;
+   }
+.services h2{
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 60px;
+    text-align:center;
+}
+.about-col-1 img{
+      width: 300px;
+      height: 300px; 
+      border-radius: 50%;
+      overflow: hidden;
+      border: orange 2px solid;
+      margin-left: 3%;
+      z-index: 2;
+    }
+    .about-col-1x img{
+      width: 300px;
+      height: 300px; 
+      border-radius: 50%;
+      overflow: hidden;
+      border: orange 2px solid;
+      margin-left: 3%;
+      margin-top:110px;
+      z-index: 2;
+    }
+ .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: orange 2px solid;
+    border-radius: 20px;
+    margin: 25px;
+    padding:15px;
+    position: relative;
+    flex-direction:row;
+ }
+.about-col-1{
+    flex-basis: 33%;
+}
+.about-col-2{
+    flex-basis: 62%;
+}
+.about-col-2 p{
+    font-size: 30px;
+    text-align:left;
+  }
+  .about-col-2 button{
+      color:white;
+      background: green;
+      border-radius: 8px;
+      padding: 10px 20px;
+      font-size: 25px;
+      text-align: center;
+      width: 200px;
+      border: 2px green solid;
+      display: inline-block;
+      cursor:pointer;
+      transition: background-color 0.3s, color 0.3s;
+      justify-content: right;
+      position: relative;
+      left: 340px;
+  }
+.about-col-2 button:hover {
+       background-color: green;
+       color: orange;
+    }
+ .contact h2{
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 40px;
+    text-align:center;
+    color: white;
+}
+footer{
+  padding:10px 15px;
+  background-color:green;
+  color:white;
+  position: relative;
+}
+
+footer .ul li{
+ font-size: 35px;
+ color:white;
+ }
+ footer .ul li em{
+ font-size: 35px;
+ color:white;
+ }
+#copyright{
+    color:white;
+    font-size: 25px;
+    position: relative;
+    margin-left: 0px;
+}
+.ul li a{
+    color:orange;
+    font-size: 35px;
+}
+.ul li{
+   line-height:50px;
+}
+.socials {
+    margin: 20px 0px 40px 370px;
+    justify-content: space-between;
+    }
+.socials i{
+    margin-right: 50px;
+}
